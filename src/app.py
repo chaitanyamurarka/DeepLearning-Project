@@ -43,7 +43,7 @@ def momentum_gradient_descent(gradient, initial_position, learning_rate, momentu
 initial_position_3d = np.array([1.8, 1.0, -0.5])
 learning_rate = 0.01
 momentum = 0.9
-num_iterations = 10
+num_iterations = 100
 
 # Run the momentum-based gradient descent algorithm in 3D
 positions_3d = momentum_gradient_descent(gradient, initial_position_3d, learning_rate, momentum, num_iterations)
